@@ -33,7 +33,11 @@ export function Navbar() {
             <Link href="#testimonials" className="text-white hover:text-primary transition-colors">
               Testimonials
             </Link>
-            <Button>Contact</Button>
+            <Button><a
+    href="https://wa.me/923052674578"
+    target="_blank"
+    rel="noopener noreferrer"
+  >Contact</a></Button>
           </div>
 
           {/* Mobile Navigation */}
@@ -76,7 +80,11 @@ export function Navbar() {
               >
                 Testimonials
               </Link>
-              <Button className="w-full">Contact</Button>
+              <Button className="w-full"><a
+    href="https://wa.me/923052674578"
+    target="_blank"
+    rel="noopener noreferrer"
+  >Contact</a></Button>
             </div>
           </div>
         )}

@@ -26,20 +26,30 @@ export default function Home() {
               I help their company and experience problems by building accessible and inclusive web products and digital
               experiences.
             </p>
-            <div className="flex gap-4">
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90 hover:ring-2 hover:ring-primary hover:ring-offset-2 hover:ring-offset-black transition-all duration-300"
-              >
-                Contact Me
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-white"
-              >
-                Download CV
-              </Button>
+          <div className="flex gap-4">
+            <Button
+  size="lg"
+  asChild
+  className="bg-primary hover:bg-primary/90 hover:ring-2 hover:ring-primary hover:ring-offset-2 hover:ring-offset-black transition-all duration-300"
+>
+  <a
+    href="https://wa.me/923052674578"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Contact Me
+  </a>
+</Button>
+
+<a href="/saraib-aqeel-resume.pdf" target="_blank" rel="noopener noreferrer">
+      <Button
+        size="lg"
+        variant="outline"
+        className="border-primary text-primary hover:bg-primary hover:text-white"
+      >
+        Download CV
+      </Button>
+    </a>
             </div>
           </div>
           <div className="relative">
@@ -168,7 +178,11 @@ export default function Home() {
       </a>
     </li>
     <li>
-      <a href="#contact" className="hover:text-white transition">
+ <a
+    href="https://wa.me/923052674578"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
         Contact
       </a>
     </li>
