@@ -6,8 +6,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Saraib Portfolio',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  description: 'Frontend Developer',
+  generator: '',
 }
 
 export default function RootLayout({
